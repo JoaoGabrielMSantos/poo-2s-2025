@@ -16,11 +16,10 @@ public class Main {
         SistemaOperacional so4 = new SistemaOperacional(c1, p4);
         SistemaOperacional so5 = new SistemaOperacional(c1, p5);
 
-        so1.rodarPrograma();
-        so2.rodarPrograma();
-        so3.rodarPrograma();
-        so4.rodarPrograma();
-        so5.rodarPrograma();
-        
+        so1.getRodarPrograma();
+        so2.getRodarPrograma();
+        so3.getRodarPrograma();
+        so4.getRodarPrograma();
+        so5.getRodarPrograma();
     }
 }
