@@ -5,6 +5,13 @@
       "type": "java",
       "name": "Main",
       "request": "launch",
+      "mainClass": "atividade02.Main",
+      "projectName": "poo-2s-2025_41af2445"
+    },
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
       "mainClass": "atividade01.Main",
       "projectName": "poo-2s-2025_41af2445"
     },
