@@ -1,16 +1,18 @@
-# Compiled class file
+# === COMPILAÇÃO JAVA ===
 *.class
-
-# Log file
 *.log
 
-# BlueJ files
-*.ctxt
+# === MAVEN ===
+/target/
+!.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/maven-wrapper.properties
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+# === INTELLIJ IDEA ===
+.idea/
+*.iml
+out/
 
-# Package Files #
+# === PACOTES ===
 *.jar
 *.war
 *.nar
@@ -19,6 +21,6 @@
 *.tar.gz
 *.rar
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+# === LOGS DE CRASH DA JVM ===
 hs_err_pid*
 replay_pid*
